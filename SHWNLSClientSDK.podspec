@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.vendored_framework = "SHWNLSClientSDK/Classes/SHWNLSClient.framework"
   s.dependency 'UTDID', '1.0.0'
   s.requires_arc = true
-  s.frameworks = 'SystemConfiguration'
+  s.frameworks = 'SystemConfiguration', 'AudioToolbox', 'AVFoundation'
 end
