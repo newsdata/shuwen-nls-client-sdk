@@ -1,4 +1,5 @@
-use_frameworks!
+#use_frameworks!
+platform :ios, "8.0"
 
 target 'SHWNLSClientSDK_Example' do
   pod 'SHWNLSClientSDK', :path => '../'

@@ -20,10 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		62CB730A8F09739E3C2A1997 /* Pods_SHWNLSClientSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7784E55374C79110E96EEF /* Pods_SHWNLSClientSDK_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AACDD72E988DC467F4DE50EE /* Pods_SHWNLSClientSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057D257E824C13B5AD410250 /* Pods_SHWNLSClientSDK_Tests.framework */; };
+		C5E85DE1BFAC65012EF98251 /* libPods-SHWNLSClientSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EE37399040931A6249DB67 /* libPods-SHWNLSClientSDK_Tests.a */; };
+		FEE2F2FF35D103AF5FDB2942 /* libPods-SHWNLSClientSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F199C88712363359124010 /* libPods-SHWNLSClientSDK_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		057D257E824C13B5AD410250 /* Pods_SHWNLSClientSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWNLSClientSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EE37399040931A6249DB67 /* libPods-SHWNLSClientSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHWNLSClientSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA13E68F7414A5045F6F29B /* Pods-SHWNLSClientSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Example/Pods-SHWNLSClientSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		371C2694615D79804A3CD5DE /* Pods-SHWNLSClientSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Example/Pods-SHWNLSClientSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SHWNLSClientSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHWNLSClientSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,10 +59,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		66F199C88712363359124010 /* libPods-SHWNLSClientSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHWNLSClientSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DB3EEBD25955AA507EAEC0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AF7784E55374C79110E96EEF /* Pods_SHWNLSClientSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWNLSClientSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D26D9D401F23F3ED94C034 /* SHWNLSClientSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHWNLSClientSDK.podspec; path = ../SHWNLSClientSDK.podspec; sourceTree = "<group>"; };
 		B82DE644F011ADA33CE14BAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD87023C3B4D16F62E48CD86 /* Pods-SHWNLSClientSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Tests/Pods-SHWNLSClientSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				62CB730A8F09739E3C2A1997 /* Pods_SHWNLSClientSDK_Example.framework in Frameworks */,
+				FEE2F2FF35D103AF5FDB2942 /* libPods-SHWNLSClientSDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				AACDD72E988DC467F4DE50EE /* Pods_SHWNLSClientSDK_Tests.framework in Frameworks */,
+				C5E85DE1BFAC65012EF98251 /* libPods-SHWNLSClientSDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				AF7784E55374C79110E96EEF /* Pods_SHWNLSClientSDK_Example.framework */,
-				057D257E824C13B5AD410250 /* Pods_SHWNLSClientSDK_Tests.framework */,
+				66F199C88712363359124010 /* libPods-SHWNLSClientSDK_Example.a */,
+				23EE37399040931A6249DB67 /* libPods-SHWNLSClientSDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -527,6 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SHWNLSClientSDK/SHWNLSClientSDK-Prefix.pch";
 				INFOPLIST_FILE = "SHWNLSClientSDK/SHWNLSClientSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SHWNLSClientSDK/SHWNLSClientSDK-Prefix.pch";
 				INFOPLIST_FILE = "SHWNLSClientSDK/SHWNLSClientSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
