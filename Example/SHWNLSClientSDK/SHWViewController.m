@@ -6,13 +6,13 @@
 //  Copyright (c) 2017 yayang. All rights reserved.
 //
 
-#import "HViewController.h"
+#import "SHWViewController.h"
 
-@interface HViewController ()
+@interface SHWViewController ()
 
 @end
 
-@implementation HViewController
+@implementation SHWViewController
 
 - (void)viewDidLoad
 {

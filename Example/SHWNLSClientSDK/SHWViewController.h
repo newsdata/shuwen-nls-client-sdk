@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface HViewController : UIViewController
+@interface SHWViewController : UIViewController
 
 @end

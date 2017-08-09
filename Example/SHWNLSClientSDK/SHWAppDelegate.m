@@ -6,9 +6,9 @@
 //  Copyright (c) 2017 yayang. All rights reserved.
 //
 
-#import "HAppDelegate.h"
+#import "SHWAppDelegate.h"
 
-@implementation HAppDelegate
+@implementation SHWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

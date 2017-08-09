@@ -12,8 +12,8 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* HAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HViewController.m */; };
+		6003F59E195388D20070C39A /* SHWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* SHWAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* SHWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* SHWViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -48,10 +48,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* SHWNLSClientSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHWNLSClientSDK-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* HAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* HAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* SHWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* SHWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* SHWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* SHWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* SHWNLSClientSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHWNLSClientSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,10 +61,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8DB3EEBD25955AA507EAEC0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8DB3EEBD25955AA507EAEC0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AF7784E55374C79110E96EEF /* Pods_SHWNLSClientSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWNLSClientSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1D26D9D401F23F3ED94C034 /* SHWNLSClientSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SHWNLSClientSDK.podspec; path = ../SHWNLSClientSDK.podspec; sourceTree = "<group>"; };
-		B82DE644F011ADA33CE14BAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B1D26D9D401F23F3ED94C034 /* SHWNLSClientSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHWNLSClientSDK.podspec; path = ../SHWNLSClientSDK.podspec; sourceTree = "<group>"; };
+		B82DE644F011ADA33CE14BAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD87023C3B4D16F62E48CD86 /* Pods-SHWNLSClientSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Tests/Pods-SHWNLSClientSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FE542AE7649AE360CBA126BB /* Pods-SHWNLSClientSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Tests/Pods-SHWNLSClientSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,11 +143,11 @@
 		6003F593195388D20070C39A /* Example for SHWNLSClientSDK */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* HAppDelegate.h */,
-				6003F59D195388D20070C39A /* HAppDelegate.m */,
+				6003F59C195388D20070C39A /* SHWAppDelegate.h */,
+				6003F59D195388D20070C39A /* SHWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HViewController.h */,
-				6003F5A6195388D20070C39A /* HViewController.m */,
+				6003F5A5195388D20070C39A /* SHWViewController.h */,
+				6003F5A6195388D20070C39A /* SHWViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -246,7 +246,7 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = H;
+				CLASSPREFIX = SHW;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yayang;
 				TargetAttributes = {
@@ -394,8 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* HAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* HViewController.m in Sources */,
+				6003F59E195388D20070C39A /* SHWAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* SHWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
