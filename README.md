@@ -34,7 +34,7 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 
 ### 3.1 ASR, 语音转文字
 语音只支持麦克风录制，长度限制15s
-```objective-c
+```Objective-C
 @protocol SHWASRClientDelegate <NSObject>
 @optional
 
@@ -72,7 +72,7 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 ### 3.2 tts, 文字转语音
 长度限制，暂定1000字。超过限制，将分次返回音频文件。
 返回的音频文件格式为mp3
-```objective-c
+```Objective-C
 @protocol SHWTTSClientDelegate <NSObject>
 @optional
 
