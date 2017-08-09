@@ -18,7 +18,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://code.aliyun.com/xhzy-ios/frameworkplatform.git'
 
 target 'YourProject' do
-  pod 'SHW', '~> 1.0.8'
+  pod 'SHWNLSClient', '~> 0.1.0'
 end
 ```
 
