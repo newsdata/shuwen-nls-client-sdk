@@ -1,0 +1,6 @@
+framework module SHWNLSClient {
+  umbrella header "SHWNLSClient.h"
+
+  export *
+  module * { export * }
+}
