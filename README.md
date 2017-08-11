@@ -1,4 +1,4 @@
-# 边牧 iOS SDK 接入指南(v0.1.0)
+# 边牧 iOS SDK 接入指南(v0.1.1)
 
 This project is a public SDK for who want analyse user behaviors.
 Deploy target : iOS 8.0.
@@ -18,7 +18,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://code.aliyun.com/xhzy-ios/frameworkplatform.git'
 
 target 'YourProject' do
-  pod 'SHWNLSClient', '~> 0.1.0'
+  pod 'SHWNLSClientSDK', '~> 0.1.1'
 end
 ```
 
@@ -30,10 +30,19 @@ end
 Get your AppKey in our web site.
 appKey值可从新华智云接口人获取（网站建设中，目前请联系接口人）
 
-## 3 How to use
 
-### 3.1 ASR, 语音转文字
+
+## 3 How to use
+### 3.1 设置AppKey和AppSecret
+```Objective-C
+[SHWNLSGlobleConfig setAppKey:@“Your_APPKEY”];
+[SHWNLSGlobleConfig setAppSecret:@“Your_APPSECRET”];
+```
+
+### 3.2 ASR, 语音转文字
 语音只支持麦克风录制，长度限制15s
+>多次调用beginRecord，如果已经处于Recording状态，后面的调用无效
+
 ```Objective-C
 @protocol SHWASRClientDelegate <NSObject>
 @optional
@@ -47,6 +56,11 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
     Called when the asr procedure stops recording audio.
  */
 - (void)asrClientDidFinishRecording:(SHWASRClient *)asrClient;
+
+/*!
+ Called when the asr procedure stops recording audio.
+ */
+- (void)asrClientDidFinishRecognizing:(SHWASRClient *)asrClient;
 
 /*!
     Called when the asr procedure returns a custom application response.
@@ -69,9 +83,11 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 ```
 
 
-### 3.2 tts, 文字转语音
-长度限制，暂定1000字。超过限制，将分次返回音频文件。
-返回的音频文件格式为mp3
+### 3.3 tts, 文字转语音
+长度没有限制，ttsClient:didReceiveAudio:sequence:会多次返回音频文件。
+返回的NSData音频格式为mp3
+>多次调用tts:language:，后一次会cancel前一次的请求。
+
 ```Objective-C
 @protocol SHWTTSClientDelegate <NSObject>
 @optional
