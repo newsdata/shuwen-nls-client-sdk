@@ -8,13 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWNLSClientSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '英文版语音服务 SDK.'
-  s.description      = '英文版语音服务 SDK.'
   s.homepage         = 'https://code.aliyun.com/xhzy-ios/SHWNLSClientSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yangyang' => 'yangyang@shuwen.com' }
-  s.source           = { :git => 'git@code.aliyun.com:xhzy-ios/SHWNLSClientSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://code.aliyun.com/xhzy-ios/SHWNLSClientSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.vendored_framework = "SHWNLSClientSDK/Classes/SHWNLSClient.framework"
   s.dependency 'UTDID', '1.0.0'

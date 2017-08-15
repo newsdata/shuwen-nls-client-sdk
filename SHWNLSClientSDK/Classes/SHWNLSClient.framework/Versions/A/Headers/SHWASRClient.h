@@ -26,6 +26,11 @@
 - (void)asrClientDidFinishRecording:(SHWASRClient *)asrClient;
 
 /*!
+ Called when the asr procedure stops recording audio.
+ */
+- (void)asrClientDidFinishRecognizing:(SHWASRClient *)asrClient;
+
+/*!
     Called when the asr procedure returns a custom application response.
  */
 - (void)asrClient:(SHWASRClient *)asrClient didReceiveServiceResponse:(SHWASRSpeechResult *)result;
