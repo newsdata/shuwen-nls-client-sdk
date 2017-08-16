@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWNLSClientSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '英文版语音服务 SDK.'
   s.homepage         = 'https://code.aliyun.com/xhzy-ios/SHWNLSClientSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
