@@ -12,6 +12,7 @@
 #import <SHWNLSClient/SHWASRClient.h>
 #import <SHWNLSClient/SHWTTSClient.h>
 #import <SHWNLSClient/SHWASRSpeechResult.h>
+#import <SHWNLSClient/SHWNLSGlobleConfig.h>
 
 // In this header, you should import all the public headers of your framework using statements like #import <SHWNLSClient/PublicHeader.h>
 
