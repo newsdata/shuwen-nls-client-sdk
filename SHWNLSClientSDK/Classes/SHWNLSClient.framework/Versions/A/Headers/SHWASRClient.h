@@ -13,8 +13,11 @@
 @class SHWASRClient;
 
 @protocol SHWASRClientDelegate <NSObject>
+/*!
+ Called when the asr procedure returns a custom application response.
+ */
+- (void)asrClient:(SHWASRClient *)asrClient didReceiveServiceResponse:(SHWASRSpeechResult *)result;
 @optional
-
 /*!
     Called when the asr procedure starts recording audio.
  */
@@ -31,11 +34,6 @@
 - (void)asrClientDidFinishRecognizing:(SHWASRClient *)asrClient;
 
 /*!
-    Called when the asr procedure returns a custom application response.
- */
-- (void)asrClient:(SHWASRClient *)asrClient didReceiveServiceResponse:(SHWASRSpeechResult *)result;
-
-/*!
     Called when the asr procedure has an error.
  */
 - (void)asrClient:(SHWASRClient *)asrClient didFailWithError:(NSError *)error;
@@ -45,5 +43,6 @@
 + (instancetype)initWithDelegate:(id<SHWASRClientDelegate>)delegate;
 - (void)beginRecord;
 - (void)finishRecordAndRecognize;
+- (BOOL)isRecording;
 - (void)cancel;
 @end

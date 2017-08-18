@@ -34,7 +34,7 @@
 @interface SHWTTSClient : NSObject
 + (instancetype)initWithDelegate:(id<SHWTTSClientDelegate>)delegate;
 /**
- * @prama language, pass nil will use default language en_us
+ * @prama language, pass nil will use default language en-US
  */
 - (void)tts:(NSString *)text language:(NSString *)language;
 - (void)cancel;
