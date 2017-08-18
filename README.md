@@ -1,4 +1,4 @@
-# 边牧 iOS SDK 接入指南(v0.1.1)
+# 边牧 iOS SDK 接入指南(v0.2.0)
 
 This project is a public SDK for who want analyse user behaviors.
 Deploy target : iOS 8.0.
@@ -18,7 +18,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://code.aliyun.com/xhzy-ios/frameworkplatform.git'
 
 target 'YourProject' do
-  pod 'SHWNLSClientSDK', '~> 0.1.1'
+  pod 'SHWNLSClientSDK', '~> 0.2.0'
 end
 ```
 
@@ -123,5 +123,9 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 
 
 ## 4 其它
+项目使用了http协议，所以需要适配
+在```Info.plist```中添加```NSAppTransportSecurity```类型```Dictionary```。
+在```NSAppTransportSecurity```下添加```NSAllowsArbitraryLoads```类型```Boolean```,值设为```YES```。
 
-- 由于 UTDID.framework 不支持 bitcode ，需要将 Build setting 下 Build Options 中的Enable Bitcode 至为 NO
+项目需要使用麦克风，需要适配
+在```Info.plist```中添加```Privacy - Microphone Usage Description```类型```NSString```。
