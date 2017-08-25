@@ -1,4 +1,4 @@
-# 边牧 iOS SDK 接入指南(v0.2.0)
+# 边牧 iOS SDK 接入指南(v1.0.0)
 
 This project is a public SDK for who want analyse user behaviors.
 Deploy target : iOS 8.0.
@@ -18,7 +18,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://code.aliyun.com/xhzy-ios/frameworkplatform.git'
 
 target 'YourProject' do
-  pod 'SHWNLSClientSDK', '~> 0.2.0'
+  pod 'SHWNLSClientSDK', '~> 1.0.0'
 end
 ```
 
