@@ -79,6 +79,7 @@ delegate方法，最终都在主线程中回调
 + (instancetype)initWithDelegate:(id<SHWASRClientDelegate>)delegate;
 - (void)beginRecord;
 - (void)finishRecordAndRecognize;
+- (BOOL)isRecording;
 - (void)cancel;
 @end
 ```
