@@ -134,3 +134,13 @@ delegate方法，最终都在主线程中回调。
 
 项目需要使用麦克风，需要适配
 在```Info.plist```中添加```Privacy - Microphone Usage Description```类型```NSString```。
+
+## 5 错误码错误吗码
+#define SW_NLS_ERROR_CODE_NO_ERR            0
+#define SW_NLS_ERROR_CODE_RECORD         1001
+#define SW_NLS_ERROR_CODE_NETWORK        1003
+#define SW_NLS_ERROR_CODE_TIME_OUT       1004
+#define SW_NLS_ERROR_CODE_USER_CANCEL    1005
+#define SW_NLS_ERROR_CODE_AUTH           1006
+#define SW_NLS_ERROR_CODE_ASR            1007
+#define SW_NLS_ERROR_CODE_TTS            1008
