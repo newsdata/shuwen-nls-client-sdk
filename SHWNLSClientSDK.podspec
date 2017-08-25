@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.vendored_framework = "SHWNLSClientSDK/Classes/SHWNLSClient.framework"
   s.dependency 'SHWOpusSDK', '~> 0.1.0'
+  s.dependency 'SHWAnalytics', '~> 1.0.10'
   s.requires_arc = true
   s.frameworks = 'SystemConfiguration', 'AudioToolbox', 'AVFoundation'
 end

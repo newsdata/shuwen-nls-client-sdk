@@ -11,12 +11,13 @@
 @class SHWTTSClient;
 
 @protocol SHWTTSClientDelegate <NSObject>
-@optional
-
+    
 /*!
-    Called when the tts procedure returns audio data.
+ Called when the tts procedure returns audio data.
  */
 - (void)ttsClient:(SHWTTSClient *)ttsClient didReceiveAudio:(NSData *)audioData sequence:(int)sequence;
+
+@optional
 
 /*!
     Called when the tts procedure completes successfully.
