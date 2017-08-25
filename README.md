@@ -24,7 +24,9 @@ end
 
 > 注: 以上 pod 版本号，请自行更新到最新版本
 
-### 1.3 执行 `pod install`
+### 1.3 更新安装 
+`pod repo update`
+`pod install`
 
 ## 2 Regist your app.
 Get your AppKey in our web site.
