@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWNLSClientSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '英文版语音服务 SDK.'
   s.homepage         = 'https://code.aliyun.com/xhzy-ios/SHWNLSClientSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.vendored_framework = "SHWNLSClientSDK/Classes/SHWNLSClient.framework"
   s.dependency 'SHWOpusSDK', '~> 0.2.0'
-  s.dependency 'SHWAnalytics', '~> 1.0.12'
+  s.dependency 'SHWAnalytics', '~> 1.0.13'
   s.requires_arc = true
   s.frameworks = 'SystemConfiguration', 'AudioToolbox', 'AVFoundation'
 end
