@@ -16,8 +16,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://code.aliyun.com/xhzy-ios/SHWNLSClientSDK.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.vendored_framework = "SHWNLSClientSDK/Classes/SHWNLSClient.framework"
-  s.dependency 'SHWOpusSDK', '~> 0.2.0'
-  s.dependency 'SHWAnalytics', '~> 1.1.0'
+  s.dependency 'SHWOpusSDK', '~> 0.2'
+  s.dependency 'SHWAnalytics', '~> 1.1'
+
   s.requires_arc = true
   s.frameworks = 'SystemConfiguration', 'AudioToolbox', 'AVFoundation'
 end
