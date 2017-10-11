@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DB3EEBD25955AA507EAEC0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B1D26D9D401F23F3ED94C034 /* SHWNLSClientSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHWNLSClientSDK.podspec; path = ../SHWNLSClientSDK.podspec; sourceTree = "<group>"; };
+		B1D26D9D401F23F3ED94C034 /* SHWNLSClient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHWNLSClient.podspec; path = ../SHWNLSClient.podspec; sourceTree = "<group>"; };
 		B82DE644F011ADA33CE14BAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD87023C3B4D16F62E48CD86 /* Pods-SHWNLSClientSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Tests/Pods-SHWNLSClientSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FE542AE7649AE360CBA126BB /* Pods-SHWNLSClientSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Tests/Pods-SHWNLSClientSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B1D26D9D401F23F3ED94C034 /* SHWNLSClientSDK.podspec */,
+				B1D26D9D401F23F3ED94C034 /* SHWNLSClient.podspec */,
 				8DB3EEBD25955AA507EAEC0A /* README.md */,
 				B82DE644F011ADA33CE14BAF /* LICENSE */,
 			);

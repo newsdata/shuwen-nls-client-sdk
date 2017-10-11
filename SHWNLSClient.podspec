@@ -7,17 +7,18 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SHWNLSClientSDK'
-  s.version          = '1.0.3'
+  s.name             = 'SHWNLSClient'
+  s.version          = '1.0.4'
   s.summary          = '英文版语音服务 SDK.'
-  s.homepage         = 'https://code.aliyun.com/xhzy-ios/SHWNLSClientSDK'
+  s.homepage         = 'https://github.com/newsdata/shuwen-nls-client-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yangyang' => 'yangyang@shuwen.com' }
-  s.source           = { :git => 'https://code.aliyun.com/xhzy-ios/SHWNLSClientSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/newsdata/shuwen-nls-client-sdk.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
+
   s.vendored_framework = "SHWNLSClientSDK/Classes/SHWNLSClient.framework"
-  s.dependency 'SHWOpusSDK', '~> 0.2'
-  s.dependency 'SHWAnalytics', '~> 1.1'
+  s.dependency 'SHWOpus', '~> 0.3'
+  s.dependency 'SHWAnalyticsSDK', '~> 1.1'
 
   s.requires_arc = true
   s.frameworks = 'SystemConfiguration', 'AudioToolbox', 'AVFoundation'
