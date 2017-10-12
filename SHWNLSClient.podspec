@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWNLSClient'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = '英文版语音服务 SDK.'
   s.homepage         = 'https://github.com/newsdata/shuwen-nls-client-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.vendored_framework = "SHWNLSClientSDK/Classes/SHWNLSClient.framework"
   s.dependency 'SHWOpus', '~> 0.3'
   s.dependency 'SHWAnalyticsSDK', '~> 1.1'
+  s.dependency 'SocketRocket', '~> 0.5.1'
 
   s.requires_arc = true
   s.frameworks = 'SystemConfiguration', 'AudioToolbox', 'AVFoundation'

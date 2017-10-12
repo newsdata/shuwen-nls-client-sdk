@@ -1,4 +1,4 @@
-# 边牧 iOS SDK 接入指南(v1.0.4)
+# 边牧 iOS SDK 接入指南(v1.0.5)
 
 自然语言服务SDK，目前用于英文的ASR和TTS.
 
@@ -10,7 +10,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-  pod 'SHWNLSClient', '~> 1.0.4'
+  pod 'SHWNLSClient', '~> 1.0.5'
 end
 ```
 
@@ -141,3 +141,5 @@ delegate方法，最终都在主线程中回调。
 |1006        | 鉴权错误|
 |1007           |ASR错误|
 |1008           |TTS错误|
+
+

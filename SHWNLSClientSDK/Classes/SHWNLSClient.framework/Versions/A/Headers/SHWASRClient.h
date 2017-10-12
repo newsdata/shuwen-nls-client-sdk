@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <AudioToolbox/AudioToolbox.h>
 #import "SHWASRSpeechResult.h"
+#import "SHWNLSPublicHeader.h"
 
 @class SHWASRClient;
 

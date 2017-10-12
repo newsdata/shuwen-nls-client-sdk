@@ -11,4 +11,6 @@
 @interface SHWASRSpeechResult : NSObject
 @property (nonatomic, readonly, copy)NSString *text;
 + (instancetype)initWithText:(NSString *)text;
+
+//+ (instancetype)initWithText:(NSString *)text sentence
 @end
