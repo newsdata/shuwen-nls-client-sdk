@@ -87,6 +87,8 @@ delegate方法，最终都在主线程中回调。
 delegate方法，最终都在主线程中回调。
 >多次调用tts:language:，后一次会cancel前一次的请求。
 
+language，英文传参数 "en-US"，中文传参数 "zh-CN"。
+
 ```Objective-C
 @protocol SHWTTSClientDelegate <NSObject>
 @optional
