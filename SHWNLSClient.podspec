@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWNLSClient'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = '英文版语音服务 SDK.'
   s.homepage         = 'https://github.com/newsdata/shuwen-nls-client-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
