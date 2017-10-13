@@ -12,8 +12,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* SHWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* SHWAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* SHWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* SHWViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +21,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C5E85DE1BFAC65012EF98251 /* libPods-SHWNLSClientSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EE37399040931A6249DB67 /* libPods-SHWNLSClientSDK_Tests.a */; };
+		DDDF799D1F908F70008BF8DF /* SHWNLSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDF79971F908F6F008BF8DF /* SHWNLSViewController.m */; };
+		DDDF799E1F908F70008BF8DF /* SHWNLSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDF799C1F908F70008BF8DF /* SHWNLSAppDelegate.m */; };
 		FEE2F2FF35D103AF5FDB2942 /* libPods-SHWNLSClientSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F199C88712363359124010 /* libPods-SHWNLSClientSDK_Example.a */; };
 /* End PBXBuildFile section */
 
@@ -48,10 +48,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* SHWNLSClientSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHWNLSClientSDK-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* SHWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* SHWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* SHWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* SHWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* SHWNLSClientSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHWNLSClientSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -66,6 +62,12 @@
 		B1D26D9D401F23F3ED94C034 /* SHWNLSClient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHWNLSClient.podspec; path = ../SHWNLSClient.podspec; sourceTree = "<group>"; };
 		B82DE644F011ADA33CE14BAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD87023C3B4D16F62E48CD86 /* Pods-SHWNLSClientSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Tests/Pods-SHWNLSClientSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DDDF79971F908F6F008BF8DF /* SHWNLSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWNLSViewController.m; sourceTree = "<group>"; };
+		DDDF79981F908F6F008BF8DF /* SHWNLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWNLSAppDelegate.h; sourceTree = "<group>"; };
+		DDDF79991F908F6F008BF8DF /* SHWNLSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWNLSViewController.h; sourceTree = "<group>"; };
+		DDDF799A1F908F70008BF8DF /* sample2_12s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample2_12s.mp3; sourceTree = "<group>"; };
+		DDDF799B1F908F70008BF8DF /* SHWNLSConstantHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWNLSConstantHeader.h; sourceTree = "<group>"; };
+		DDDF799C1F908F70008BF8DF /* SHWNLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWNLSAppDelegate.m; sourceTree = "<group>"; };
 		FE542AE7649AE360CBA126BB /* Pods-SHWNLSClientSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWNLSClientSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWNLSClientSDK_Tests/Pods-SHWNLSClientSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,11 +145,13 @@
 		6003F593195388D20070C39A /* Example for SHWNLSClientSDK */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* SHWAppDelegate.h */,
-				6003F59D195388D20070C39A /* SHWAppDelegate.m */,
+				DDDF799A1F908F70008BF8DF /* sample2_12s.mp3 */,
+				DDDF79981F908F6F008BF8DF /* SHWNLSAppDelegate.h */,
+				DDDF799C1F908F70008BF8DF /* SHWNLSAppDelegate.m */,
+				DDDF799B1F908F70008BF8DF /* SHWNLSConstantHeader.h */,
+				DDDF79991F908F6F008BF8DF /* SHWNLSViewController.h */,
+				DDDF79971F908F6F008BF8DF /* SHWNLSViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* SHWViewController.h */,
-				6003F5A6195388D20070C39A /* SHWViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -397,9 +401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* SHWAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* SHWViewController.m in Sources */,
+				DDDF799E1F908F70008BF8DF /* SHWNLSAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				DDDF799D1F908F70008BF8DF /* SHWNLSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

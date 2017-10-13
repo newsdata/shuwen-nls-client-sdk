@@ -1,18 +1,19 @@
 //
-//  HAppDelegate.m
-//  SHWNLSClientSDK
+//  SHWNLSAppDelegate.m
+//  SHWNLSClient
 //
 //  Created by yayang on 08/09/2017.
 //  Copyright (c) 2017 yayang. All rights reserved.
 //
 
-#import "SHWAppDelegate.h"
+#import "SHWNLSAppDelegate.h"
 
-@implementation SHWAppDelegate
+@implementation SHWNLSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"%@", NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0]);
     return YES;
 }
 
