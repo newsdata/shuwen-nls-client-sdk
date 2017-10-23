@@ -13,7 +13,7 @@
 
 #define TEST_APPKEY     @""
 #define TEST_APPSECRET  @""
-
+ 
 #define TEST_CN_APPKEY     @""
 #define TEST_CN_APPSECRET  @""
 
@@ -40,7 +40,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.defaultText = CN_TEXT;
-    self.defaultLanguage = SHW_NLS_LANGUAGE_CN;
+    self.defaultLanguage = SHW_NLS_LANGUAGE_US;
     [SHWNLSGlobleConfig setAppKey:TEST_CN_APPKEY];
     [SHWNLSGlobleConfig setAppSecret:TEST_CN_APPSECRET];
 
@@ -120,7 +120,7 @@
 }
 
 - (void)beginASR {
-    [self.asrClient beginRecord];
+    [self.asrClient beginRecordWithLanguage:self.defaultLanguage];
     self.textField.text = @"";
     self.startASRBtn.hidden = YES;
     self.stopASRBtn.hidden = NO;

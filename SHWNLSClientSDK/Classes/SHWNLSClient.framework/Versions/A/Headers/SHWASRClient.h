@@ -42,7 +42,7 @@
 
 @interface SHWASRClient : NSObject
 + (instancetype)initWithDelegate:(id<SHWASRClientDelegate>)delegate;
-- (void)beginRecord;
+- (void)beginRecordWithLanguage:(NSString *)language;
 - (void)finishRecordAndRecognize;
 - (BOOL)isRecording;
 - (void)cancel;

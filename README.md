@@ -10,7 +10,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-  pod 'SHWNLSClient', '~> 1.0.6'
+  pod 'SHWNLSClient', '~> 1.0.7'
 end
 ```
 
@@ -38,6 +38,8 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 语音只支持麦克风录制，长度限制```15s```。
 delegate方法，最终都在主线程中回调。
 >多次调用beginRecord，如果已经处于Recording状态，后面的调用无效。
+
+language，英文传参数 "en-US"，中文传参数 "zh-CN"。
 
 ```Objective-C
 @protocol SHWASRClientDelegate <NSObject>
@@ -72,7 +74,7 @@ delegate方法，最终都在主线程中回调。
 
 @interface SHWASRClient : NSObject
 + (instancetype)initWithDelegate:(id<SHWASRClientDelegate>)delegate;
-- (void)beginRecord;
+- (void)beginRecordWithLanguage:(NSString *)language;
 - (void)finishRecordAndRecognize;
 - (BOOL)isRecording;
 - (void)cancel;
