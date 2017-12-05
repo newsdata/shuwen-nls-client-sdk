@@ -1,6 +1,6 @@
 # 边牧 iOS SDK 接入指南(v1.0.8)
 
-自然语言服务SDK，目前用于英文的ASR和TTS.
+自然语言服务SDK，目前用于英文和中文的ASR和TTS.
 
 Deploy target : iOS 8.0.
 
